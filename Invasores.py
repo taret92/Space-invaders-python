@@ -3,6 +3,7 @@ import random
 import math
 from pygame import mixer
 
+
 #inicializa pygame
 pygame.init()
 
@@ -14,7 +15,7 @@ pygame.display.set_caption("Invasion Espacial")
 
 #agregar musica
 mixer.music.load('Meizong - Radiation.mp3')
-mixer.music.set_volume(0.3)
+mixer.music.set_volume(0.2)
 mixer.music.play(-1)
 
 #fondo
